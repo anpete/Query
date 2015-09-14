@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Microsoft.Framework.Logging.Console</name>
+    </assembly>
+    <members>
+        <member name="M:Microsoft.Framework.Logging.ConsoleLoggerExtensions.AddConsole(Microsoft.Framework.Logging.ILoggerFactory)">
+            <summary>
+            Adds a console logger that is enabled for <see cref="T:Microsoft.Framework.Logging.LogLevel"/>.Information or higher.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Framework.Logging.ConsoleLoggerExtensions.AddConsole(Microsoft.Framework.Logging.ILoggerFactory,System.Func{System.String,Microsoft.Framework.Logging.LogLevel,System.Boolean})">
+            <summary>
+            Adds a console logger that is enabled as defined by the filter function.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Framework.Logging.ConsoleLoggerExtensions.AddConsole(Microsoft.Framework.Logging.ILoggerFactory,Microsoft.Framework.Logging.LogLevel)">
+            <summary>
+            Adds a console logger that is enabled for <see cref="T:Microsoft.Framework.Logging.LogLevel"/>s of minLevel or higher.
+            </summary>
+            <param name="minLevel">The minimum <see cref="T:Microsoft.Framework.Logging.LogLevel"/> to be logged</param>
+        </member>
+    </members>
+</doc>
